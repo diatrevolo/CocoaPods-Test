@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "732E8CD3BFFDE58EC6390C4F8ADDC94C8FBF2F46",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "732E8CD3BFFDE58EC6390C4F8ADDC94C8FBF2F46" : 9223372036854775807,
+    "178015594D5AA859DB02B82266D2F79B38831695" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "23ECCAD4-98A0-4E05-8FB7-5D3CF7D3AE3F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "732E8CD3BFFDE58EC6390C4F8ADDC94C8FBF2F46" : "Cocoapods-Test\/",
+    "178015594D5AA859DB02B82266D2F79B38831695" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Cocoapods-Test",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Cocoapods-Test.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/timcamber\/Cocoapods-Test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "178015594D5AA859DB02B82266D2F79B38831695"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/timcamber\/Cocoapods-Test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "732E8CD3BFFDE58EC6390C4F8ADDC94C8FBF2F46"
+    }
+  ]
+}

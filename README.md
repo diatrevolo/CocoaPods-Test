@@ -1,12 +1,12 @@
-# Cocoapods-Test
+# CocoaPods-Test
 
-This project is intended to illustrate an issue I'm having with Cocoapods.
+This project is intended to illustrate an issue I'm having with CocoaPods.
 
 To observe the issue, do the following:
 
-- Open `Cocoapods-Test/Cocoapods-Test.xcworkspace` in Xcode.
+- Open `CocoaPods-Test/CocoaPods-Test.xcworkspace` in Xcode.
 - Pods should be installed and committed in the repository, but can run `pod install` if necessary.
-- Note that the `Cocoapods-Test` target builds and runs successfully, importing `PromiseKit` and `TwilioChatClient` pods.
+- Note that the `CocoaPods-Test` target builds and runs successfully, importing `PromiseKit` and `TwilioChatClient` pods.
 - Navigate to `Playground.playground` within the workspace. 
 - Note that the playground executes fine while importing `PromiseKit` but if `TwilioChatClient` is imported, playground execution fails with "no such module 'TwilioChatClient'".
 
@@ -26,6 +26,6 @@ I think the issue is probably related to the fact that `TwilioChatClient` is a "
 
 While the sample project here illustrates what I think is the underlying issue, the issue that prompted me to create this example project is just a small bit more complicated. 
 
-In my project, I create a framework target containing all my app's code (so it can be imported into my app and also into my playgrounds using app resources). This framework then has pod dependencies, including `PromiseKit` and `TwilioChatClient`. The execution error in the playground is different ("Couldn't lookup symbols" instead of "no such module"), as I am not importing the Cocoapods module directly but my framework which uses the pod framework.
+In my project, I create a framework target containing all my app's code (so it can be imported into my app and also into my playgrounds using app resources). This framework then has pod dependencies, including `PromiseKit` and `TwilioChatClient`. The execution error in the playground is different ("Couldn't lookup symbols" instead of "no such module"), as I am not importing the CocoaPods module directly but my framework which uses the pod framework.
 
 I suspect if I can solve the "no such module" issue, it will help me solve my "couldn't lookup symbols" issue.

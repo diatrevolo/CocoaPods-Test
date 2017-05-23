@@ -3,7 +3,7 @@ source 'https://github.com/twilio/cocoapod-specs'
 
 platform :ios, '10.0'
 
-target 'Cocoapods-Test' do
+target 'CocoaPods-Test' do
   use_frameworks!
 
   pod 'PromiseKit'

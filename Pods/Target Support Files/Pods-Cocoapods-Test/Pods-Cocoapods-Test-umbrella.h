@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Cocoapods_TestVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Cocoapods_TestVersionString[];
+FOUNDATION_EXPORT double Pods_CocoaPods_TestVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_CocoaPods_TestVersionString[];
 
