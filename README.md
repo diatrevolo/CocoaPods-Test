@@ -4,8 +4,7 @@ This project is intended to illustrate an issue I'm having with CocoaPods.
 
 To observe the issue, do the following:
 
-- Open `CocoaPods-Test/CocoaPods-Test.xcworkspace` in Xcode.
-- Pods should be installed and committed in the repository, but can run `pod install` if necessary.
+- Open `CocoaPods-Test.xcworkspace` in Xcode.
 - Note that the `CocoaPods-Test` target builds and runs successfully, importing `PromiseKit` and `TwilioChatClient` pods.
 - Navigate to `Playground.playground` within the workspace. 
 - Note that the playground executes fine while importing `PromiseKit` but if `TwilioChatClient` is imported, playground execution fails with "no such module 'TwilioChatClient'".
