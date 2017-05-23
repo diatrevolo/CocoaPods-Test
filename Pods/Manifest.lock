@@ -1,0 +1,25 @@
+PODS:
+  - PromiseKit (4.2.2):
+    - PromiseKit/Foundation (= 4.2.2)
+    - PromiseKit/QuartzCore (= 4.2.2)
+    - PromiseKit/UIKit (= 4.2.2)
+  - PromiseKit/CorePromise (4.2.2)
+  - PromiseKit/Foundation (4.2.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.2.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.2.2):
+    - PromiseKit/CorePromise
+  - TwilioChatClient (1.0.0)
+
+DEPENDENCIES:
+  - PromiseKit
+  - TwilioChatClient (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  PromiseKit: 00e8886881f151c7e573d06b437915b0bb2970ec
+  TwilioChatClient: b980c896945e171e5397564443b2483ccf68f906
+
+PODFILE CHECKSUM: 92f4b8b053f91295f96f52d81b8b4f9c1e9acef9
+
+COCOAPODS: 1.2.1
