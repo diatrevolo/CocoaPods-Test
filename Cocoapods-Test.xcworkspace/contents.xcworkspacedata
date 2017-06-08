@@ -7,4 +7,7 @@
    <FileRef
       location = "group:CocoaPods-Test.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Cocoapods-Test.xcodeproj">
+   </FileRef>
 </Workspace>

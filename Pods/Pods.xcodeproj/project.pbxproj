@@ -41,6 +41,24 @@
 		A2183D23615D133A781C92C6A5D4A96F /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5A668617B71EE43B6FB90CBEE055DD /* NSNotificationCenter+Promise.swift */; };
 		A4036B5F473334AAA617E15B41106BAE /* when.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA4E48F9BAF8D45634C30C70949C769 /* when.m */; };
 		A44E450F54E523A8F7188100A78A764B /* Pods-CocoaPods-Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02291C8454C409CE3A9765F6881FAA7B /* Pods-CocoaPods-Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C4F1EE9E9B000DE5EDC /* TCHChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C3E1EE9E9AF00DE5EDC /* TCHChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C501EE9E9B000DE5EDC /* TCHChannelDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C3F1EE9E9AF00DE5EDC /* TCHChannelDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C511EE9E9B000DE5EDC /* TCHChannelDescriptorPaginator.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C401EE9E9AF00DE5EDC /* TCHChannelDescriptorPaginator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C521EE9E9B000DE5EDC /* TCHChannels.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C411EE9E9AF00DE5EDC /* TCHChannels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C531EE9E9B000DE5EDC /* TCHConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C421EE9E9AF00DE5EDC /* TCHConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C541EE9E9B000DE5EDC /* TCHError.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C431EE9E9AF00DE5EDC /* TCHError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C551EE9E9B000DE5EDC /* TCHMember.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C441EE9E9AF00DE5EDC /* TCHMember.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C561EE9E9B000DE5EDC /* TCHMemberPaginator.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C451EE9E9AF00DE5EDC /* TCHMemberPaginator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C571EE9E9B000DE5EDC /* TCHMembers.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C461EE9E9AF00DE5EDC /* TCHMembers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C581EE9E9B000DE5EDC /* TCHMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C471EE9E9AF00DE5EDC /* TCHMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C591EE9E9B000DE5EDC /* TCHMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C481EE9E9AF00DE5EDC /* TCHMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C5A1EE9E9B000DE5EDC /* TCHResult.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C491EE9E9AF00DE5EDC /* TCHResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C5B1EE9E9B000DE5EDC /* TCHUser.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C4A1EE9E9AF00DE5EDC /* TCHUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C5C1EE9E9B000DE5EDC /* TCHUserDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C4B1EE9E9AF00DE5EDC /* TCHUserDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C5D1EE9E9B000DE5EDC /* TCHUserDescriptorPaginator.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C4C1EE9E9AF00DE5EDC /* TCHUserDescriptorPaginator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C5E1EE9E9B000DE5EDC /* TCHUsers.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C4D1EE9E9B000DE5EDC /* TCHUsers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C5F1EE9E9B000DE5EDC /* TwilioChatClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A5646C4E1EE9E9B000DE5EDC /* TwilioChatClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5646C601EE9E9B900DE5EDC /* TwilioChatClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 323D290D8948B88379A84575AA12FC63 /* TwilioChatClient.framework */; };
 		B15348391FC815B304D76CC1F10E1689 /* dispatch_promise.m in Sources */ = {isa = PBXBuildFile; fileRef = B629E790C182CEF9AF5546593D32382C /* dispatch_promise.m */; };
 		B6F842C556F340199459BE142F87427D /* NSTask+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 461A44ABEBA69D9125ECDCE0349683AA /* NSTask+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAB6823956FFEFA3C92445A019AECAAC /* Promise+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B9A7A730FB432800506F3539277144 /* Promise+Properties.swift */; };
@@ -91,9 +109,9 @@
 		1E473D2F963C75ED058F75459E52A890 /* NSNotificationCenter+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.m"; sourceTree = "<group>"; };
 		1E5A668617B71EE43B6FB90CBEE055DD /* NSNotificationCenter+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNotificationCenter+Promise.swift"; path = "Extensions/Foundation/Sources/NSNotificationCenter+Promise.swift"; sourceTree = "<group>"; };
 		279EA1E656E8C3FD0CC5104FBDE4EAED /* PMKFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKFoundation.h; path = Extensions/Foundation/Sources/PMKFoundation.h; sourceTree = "<group>"; };
-		2C25927B678476712E24E5C38997A4A3 /* Pods_CocoaPods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CocoaPods_Test.framework; path = "Pods-CocoaPods-Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C25927B678476712E24E5C38997A4A3 /* Pods_CocoaPods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaPods_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD6280193DE5E13BFD29F42F1C344CC /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
-		31A02AD46E5E819F3CEA106BEABA845B /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PromiseKit.modulemap; sourceTree = "<group>"; };
+		31A02AD46E5E819F3CEA106BEABA845B /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PromiseKit.modulemap; sourceTree = "<group>"; };
 		323D290D8948B88379A84575AA12FC63 /* TwilioChatClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioChatClient.framework; sourceTree = "<group>"; };
 		33083C616C9CA8AF16FA7C690BC673C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		38D1C0A70A99905F75ECBD43C95963D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,21 +131,41 @@
 		7CB23D8EDA097AABCE26658F4D937FE6 /* PMKAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMKAlertController.swift; path = Extensions/UIKit/Sources/PMKAlertController.swift; sourceTree = "<group>"; };
 		86116BA643B388F1DC287BEE96DA9B97 /* NSObject+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Promise.swift"; path = "Extensions/Foundation/Sources/NSObject+Promise.swift"; sourceTree = "<group>"; };
 		8D26B00561F04A325871DFF8A55CA302 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/State.swift; sourceTree = "<group>"; };
-		8FAD2AC2E6DF302F88607D100D34915A /* Pods-CocoaPods-Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CocoaPods-Test.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8FAD2AC2E6DF302F88607D100D34915A /* Pods-CocoaPods-Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CocoaPods-Test.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		948A027C30DCD3FA402DD40BEE3D4179 /* Pods-CocoaPods-Test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPods-Test-resources.sh"; sourceTree = "<group>"; };
 		9669AB12B1A4A2293B8D0AE0D294BC03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9737C4D4E8FE21B05708869B4EA0926A /* NSURLSession+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+Promise.swift"; path = "Extensions/Foundation/Sources/NSURLSession+Promise.swift"; sourceTree = "<group>"; };
 		97F627036E8C0F91E70750B3B7A2C89E /* DispatchQueue+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Promise.swift"; path = "Sources/DispatchQueue+Promise.swift"; sourceTree = "<group>"; };
 		9D3F5919D0C899EECA2B076A7F13A628 /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
 		A341AB436413F2262338FF920872B820 /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
+		A5646C361EE9E97D00DE5EDC /* TwilioChatClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TwilioChatClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5646C381EE9E97D00DE5EDC /* TwilioChatClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwilioChatClient.h; sourceTree = "<group>"; };
+		A5646C391EE9E97D00DE5EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5646C3E1EE9E9AF00DE5EDC /* TCHChannel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHChannel.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHChannel.h; sourceTree = "<group>"; };
+		A5646C3F1EE9E9AF00DE5EDC /* TCHChannelDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHChannelDescriptor.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHChannelDescriptor.h; sourceTree = "<group>"; };
+		A5646C401EE9E9AF00DE5EDC /* TCHChannelDescriptorPaginator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHChannelDescriptorPaginator.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHChannelDescriptorPaginator.h; sourceTree = "<group>"; };
+		A5646C411EE9E9AF00DE5EDC /* TCHChannels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHChannels.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHChannels.h; sourceTree = "<group>"; };
+		A5646C421EE9E9AF00DE5EDC /* TCHConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHConstants.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHConstants.h; sourceTree = "<group>"; };
+		A5646C431EE9E9AF00DE5EDC /* TCHError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHError.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHError.h; sourceTree = "<group>"; };
+		A5646C441EE9E9AF00DE5EDC /* TCHMember.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHMember.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHMember.h; sourceTree = "<group>"; };
+		A5646C451EE9E9AF00DE5EDC /* TCHMemberPaginator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHMemberPaginator.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHMemberPaginator.h; sourceTree = "<group>"; };
+		A5646C461EE9E9AF00DE5EDC /* TCHMembers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHMembers.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHMembers.h; sourceTree = "<group>"; };
+		A5646C471EE9E9AF00DE5EDC /* TCHMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHMessage.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHMessage.h; sourceTree = "<group>"; };
+		A5646C481EE9E9AF00DE5EDC /* TCHMessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHMessages.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHMessages.h; sourceTree = "<group>"; };
+		A5646C491EE9E9AF00DE5EDC /* TCHResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHResult.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHResult.h; sourceTree = "<group>"; };
+		A5646C4A1EE9E9AF00DE5EDC /* TCHUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHUser.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHUser.h; sourceTree = "<group>"; };
+		A5646C4B1EE9E9AF00DE5EDC /* TCHUserDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHUserDescriptor.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHUserDescriptor.h; sourceTree = "<group>"; };
+		A5646C4C1EE9E9AF00DE5EDC /* TCHUserDescriptorPaginator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHUserDescriptorPaginator.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHUserDescriptorPaginator.h; sourceTree = "<group>"; };
+		A5646C4D1EE9E9B000DE5EDC /* TCHUsers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCHUsers.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TCHUsers.h; sourceTree = "<group>"; };
+		A5646C4E1EE9E9B000DE5EDC /* TwilioChatClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TwilioChatClient.h; path = TwilioChatClient/TwilioChatClient.framework/Headers/TwilioChatClient.h; sourceTree = "<group>"; };
 		A9B9A7A730FB432800506F3539277144 /* Promise+Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Properties.swift"; path = "Sources/Promise+Properties.swift"; sourceTree = "<group>"; };
 		B0257A56DE8A5B6FDA547138B41E10D7 /* UIView+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Promise.swift"; path = "Extensions/UIKit/Sources/UIView+Promise.swift"; sourceTree = "<group>"; };
 		B20248B9CA6AF05FEB2E1D10F74DA59E /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
 		B484B425DD89CA2DEDD004945524DFAA /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
 		B592CEDF13DBC2EA69FEB6A7BA5F4BFE /* UIViewController+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.m"; sourceTree = "<group>"; };
 		B629E790C182CEF9AF5546593D32382C /* dispatch_promise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_promise.m; path = Sources/dispatch_promise.m; sourceTree = "<group>"; };
-		B950DFE96BEEFB33AEC4094C1712DF30 /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromiseKit.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B950DFE96BEEFB33AEC4094C1712DF30 /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBEA4FCF84439276BA4465622DE94284 /* AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnyPromise.m; path = Sources/AnyPromise.m; sourceTree = "<group>"; };
 		BC12ED3DBA2B63A0D18289FB2C33007E /* Pods-CocoaPods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPods-Test.release.xcconfig"; sourceTree = "<group>"; };
 		BEA4E48F9BAF8D45634C30C70949C769 /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
@@ -153,6 +191,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				53EBE94836221E14484FE51D30E2A6A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5646C321EE9E97D00DE5EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5646C601EE9E9B900DE5EDC /* TwilioChatClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +246,7 @@
 			children = (
 				2C25927B678476712E24E5C38997A4A3 /* Pods_CocoaPods_Test.framework */,
 				B950DFE96BEEFB33AEC4094C1712DF30 /* PromiseKit.framework */,
+				A5646C361EE9E97D00DE5EDC /* TwilioChatClient.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,7 +274,6 @@
 				4A45E1650A6656E10EE7A66ABA80AB4A /* Support Files */,
 				BCD80B1C451A8ADBD1F7C4EB45811050 /* UIKit */,
 			);
-			name = PromiseKit;
 			path = PromiseKit;
 			sourceTree = "<group>";
 		};
@@ -259,7 +305,25 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
+				A5646C3E1EE9E9AF00DE5EDC /* TCHChannel.h */,
+				A5646C3F1EE9E9AF00DE5EDC /* TCHChannelDescriptor.h */,
+				A5646C401EE9E9AF00DE5EDC /* TCHChannelDescriptorPaginator.h */,
+				A5646C411EE9E9AF00DE5EDC /* TCHChannels.h */,
+				A5646C421EE9E9AF00DE5EDC /* TCHConstants.h */,
+				A5646C431EE9E9AF00DE5EDC /* TCHError.h */,
+				A5646C441EE9E9AF00DE5EDC /* TCHMember.h */,
+				A5646C451EE9E9AF00DE5EDC /* TCHMemberPaginator.h */,
+				A5646C461EE9E9AF00DE5EDC /* TCHMembers.h */,
+				A5646C471EE9E9AF00DE5EDC /* TCHMessage.h */,
+				A5646C481EE9E9AF00DE5EDC /* TCHMessages.h */,
+				A5646C491EE9E9AF00DE5EDC /* TCHResult.h */,
+				A5646C4A1EE9E9AF00DE5EDC /* TCHUser.h */,
+				A5646C4B1EE9E9AF00DE5EDC /* TCHUserDescriptor.h */,
+				A5646C4C1EE9E9AF00DE5EDC /* TCHUserDescriptorPaginator.h */,
+				A5646C4D1EE9E9B000DE5EDC /* TCHUsers.h */,
+				A5646C4E1EE9E9B000DE5EDC /* TwilioChatClient.h */,
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A5646C371EE9E97D00DE5EDC /* TwilioChatClient */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				5CAAA57D34CC4A977DDED113B0383287 /* Pods */,
 				2902FD85B3D54B8D9427346D1484F2B3 /* Products */,
@@ -305,6 +369,15 @@
 				3917A50EB224EEDBC66971700D698782 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		A5646C371EE9E97D00DE5EDC /* TwilioChatClient */ = {
+			isa = PBXGroup;
+			children = (
+				A5646C381EE9E97D00DE5EDC /* TwilioChatClient.h */,
+				A5646C391EE9E97D00DE5EDC /* Info.plist */,
+			);
+			path = TwilioChatClient;
 			sourceTree = "<group>";
 		};
 		BCD80B1C451A8ADBD1F7C4EB45811050 /* UIKit */ = {
@@ -357,7 +430,6 @@
 			children = (
 				6E5CD9FFC955CF06F579E49355AC884E /* Frameworks */,
 			);
-			name = TwilioChatClient;
 			path = TwilioChatClient;
 			sourceTree = "<group>";
 		};
@@ -369,6 +441,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				A44E450F54E523A8F7188100A78A764B /* Pods-CocoaPods-Test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5646C331EE9E97D00DE5EDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5646C4F1EE9E9B000DE5EDC /* TCHChannel.h in Headers */,
+				A5646C501EE9E9B000DE5EDC /* TCHChannelDescriptor.h in Headers */,
+				A5646C511EE9E9B000DE5EDC /* TCHChannelDescriptorPaginator.h in Headers */,
+				A5646C521EE9E9B000DE5EDC /* TCHChannels.h in Headers */,
+				A5646C531EE9E9B000DE5EDC /* TCHConstants.h in Headers */,
+				A5646C541EE9E9B000DE5EDC /* TCHError.h in Headers */,
+				A5646C551EE9E9B000DE5EDC /* TCHMember.h in Headers */,
+				A5646C561EE9E9B000DE5EDC /* TCHMemberPaginator.h in Headers */,
+				A5646C571EE9E9B000DE5EDC /* TCHMembers.h in Headers */,
+				A5646C581EE9E9B000DE5EDC /* TCHMessage.h in Headers */,
+				A5646C591EE9E9B000DE5EDC /* TCHMessages.h in Headers */,
+				A5646C5A1EE9E9B000DE5EDC /* TCHResult.h in Headers */,
+				A5646C5B1EE9E9B000DE5EDC /* TCHUser.h in Headers */,
+				A5646C5C1EE9E9B000DE5EDC /* TCHUserDescriptor.h in Headers */,
+				A5646C5D1EE9E9B000DE5EDC /* TCHUserDescriptorPaginator.h in Headers */,
+				A5646C5E1EE9E9B000DE5EDC /* TCHUsers.h in Headers */,
+				A5646C5F1EE9E9B000DE5EDC /* TwilioChatClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +526,24 @@
 			productReference = B950DFE96BEEFB33AEC4094C1712DF30 /* PromiseKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		A5646C351EE9E97D00DE5EDC /* TwilioChatClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5646C3D1EE9E97D00DE5EDC /* Build configuration list for PBXNativeTarget "TwilioChatClient" */;
+			buildPhases = (
+				A5646C311EE9E97D00DE5EDC /* Sources */,
+				A5646C321EE9E97D00DE5EDC /* Frameworks */,
+				A5646C331EE9E97D00DE5EDC /* Headers */,
+				A5646C341EE9E97D00DE5EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwilioChatClient;
+			productName = TwilioChatClient;
+			productReference = A5646C361EE9E97D00DE5EDC /* TwilioChatClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -438,6 +552,13 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					A5646C351EE9E97D00DE5EDC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A55G256Z64;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -453,9 +574,20 @@
 			targets = (
 				17C938AB1DC417057CB21D957642BA9A /* Pods-CocoaPods-Test */,
 				A481BBB25084D3BDC8035D2A11248D08 /* PromiseKit */,
+				A5646C351EE9E97D00DE5EDC /* TwilioChatClient */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5646C341EE9E97D00DE5EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A02DFC2594B0BE63B93F9E0B3E22FCF /* Sources */ = {
@@ -463,6 +595,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB6FF47BF2C5EF481AB15E2A999E9425 /* Pods-CocoaPods-Test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5646C311EE9E97D00DE5EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +781,87 @@
 			};
 			name = Debug;
 		};
+		A5646C3B1EE9E97D00DE5EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A55G256Z64;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TwilioChatClient",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TwilioChatClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paperlesspost.samples.quickstart.SignInExample.TwilioChatClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5646C3C1EE9E97D00DE5EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A55G256Z64;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TwilioChatClient",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = TwilioChatClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paperlesspost.samples.quickstart.SignInExample.TwilioChatClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		AC5E2080C03D1B260B65EB78401D2239 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EBFC7C10E7722BEFDD3BD943A5EC31C7 /* Pods-CocoaPods-Test.debug.xcconfig */;
@@ -770,6 +990,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		A5646C3D1EE9E97D00DE5EDC /* Build configuration list for PBXNativeTarget "TwilioChatClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5646C3B1EE9E97D00DE5EDC /* Debug */,
+				A5646C3C1EE9E97D00DE5EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		AB0B83387A7D5E534C4AD7106C89986C /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
 			isa = XCConfigurationList;
