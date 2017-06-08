@@ -1,4 +1,7 @@
+This fork is an intended solution to the problem below:
+
 # CocoaPods-Test
+___ORIGINAL POST___
 
 This project is intended to illustrate an issue I'm having with CocoaPods.
 
